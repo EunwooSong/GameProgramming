@@ -291,27 +291,98 @@
 //	return 0;
 //}
 
+//#include <iostream>
+//#include <map>
+//#include <string>
+//using namespace std;
+//
+//int main() {
+//	map<string, int>m;
+//	m.insert(pair<string, int>("abc", 4));
+//	m.insert(make_pair("ab", 5));
+//
+//	cout << m.size() << endl;
+//
+//	m.erase("abc");
+//
+//	cout << "abc : " << m.count("abc") << endl;
+//	cout << "ab : " << m.count("ab") << endl;
+//
+//	for (auto it = m.begin(); it != m.end(); it++)
+//		cout << "Key : " << it->first << ", Value : " << it->second << endl;
+//	
+//	m.clear();
+//	cout << m.empty();
+//	return 0;
+//}
+
+
+//#include <iostream>
+//#include <vector>
+//#include <string>
+//using namespace std;
+//
+//int main() {
+//	vector<int> vec{10,20,30,40,50,60};
+//	vector<int>::iterator iter = begin(vec);
+//	vector<int>::iterator iter1 = vec.begin();
+//
+//	cout << *iter << endl;
+//
+//	iter++;
+//
+//	vector<int> vc{ 10,20,30,40 };
+//
+//	for (auto v : vc)
+//		cout << v << endl;
+//
+//	return;
+//}
+
+//#include <iostream>
+//#include <list>
+//#include <vector>
+//using namespace std;
+//
+//template<typename Iter>
+//void print(const Iter& iter_begin, const Iter& iter_end) {
+//	for (Iter iter = iter_begin; iter != iter_end; iter++) {
+//		cout << *iter << ' ';
+//	}
+//	cout << endl;
+//}
+//
+//template<typename Iter>
+//void print_reverse(const Iter& iter_begin, const Iter& iter_end) {
+//	Iter iter = iter_end;
+//	while (iter != iter_begin) {
+//		iter--;
+//		cout << *iter << ' ';
+//	}
+//
+//	cout << endl;
+//}
+//
+//int main() {
+//	vector<int> v{ 1,2,3,4,5 };
+//	list<double> l{ 1,1,2,2,3,3,4,4,5,5 };
+//	int ary[] = { 100,200,300,400 };
+//
+//	print(begin(v), end(v));
+//	print(begin(l), end(l));
+//	print(begin(ary), end(ary));
+//
+//	print_reverse(begin(v), end(v));
+//	print_reverse(begin(l), end(l));
+//	print_reverse(begin(ary), end(ary));
+//
+//	return 0;
+//}
+
 #include <iostream>
-#include <map>
-#include <string>
-using namespace std;
+#include "DataManager.h"
 
 int main() {
-	map<string, int>m;
-	m.insert(pair<string, int>("abc", 4));
-	m.insert(make_pair("ab", 5));
-
-	cout << m.size() << endl;
-
-	m.erase("abc");
-
-	cout << "abc : " << m.count("abc") << endl;
-	cout << "ab : " << m.count("ab") << endl;
-
-	for (auto it = m.begin(); it != m.end(); it++)
-		cout << "Key : " << it->first << ", Value : " << it->second << endl;
-	
-	m.clear();
-	cout << m.empty();
+	cout << DataMgr->getExp() << endl;
 	return 0;
 }

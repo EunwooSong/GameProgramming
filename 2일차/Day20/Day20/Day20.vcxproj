@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DataManager.cpp" />
     <ClCompile Include="stack.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataManager.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
