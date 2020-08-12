@@ -43,7 +43,7 @@ HWND Application::FloatWindow(HINSTANCE hInstance, int cmdShow)
 	hWnd = CreateWindow(
 		PROGRAM_NAME,
 		PROGRAM_NAME,
-		WS_OVERLAPPED,
+		WS_SYSMENU,
 		CW_USEDEFAULT,
 		CW_USEDEFAULT,
 		SCREEN_WIDTH,

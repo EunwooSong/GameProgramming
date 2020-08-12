@@ -8,7 +8,8 @@ SceneManager::SceneManager()
 
 SceneManager::~SceneManager()
 {
-	SAFE_DELETE(currentScene);
+	if(currentScene)
+		SAFE_DELETE(currentScene);
 }
 
 void SceneManager::Render()
