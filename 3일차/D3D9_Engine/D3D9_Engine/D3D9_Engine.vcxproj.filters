@@ -49,6 +49,12 @@
     <Filter Include="소스 파일\Manager\TextureManager\Texture">
       <UniqueIdentifier>{7fb4d089-314e-46ca-bbc6-48f791d303dc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Object\Sprite">
+      <UniqueIdentifier>{81f40fe3-1fbf-45db-8050-9d3eae5cf864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Animation">
+      <UniqueIdentifier>{fc9aaea1-3e8d-4969-984b-01519d0d42bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -84,40 +90,52 @@
     <ClCompile Include="Texture.cpp">
       <Filter>소스 파일\Manager\TextureManager\Texture</Filter>
     </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>소스 파일\Object\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>소스 파일\Object\Animation</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="InputManager.h">
-      <Filter>소스 파일\Manager\InputManager</Filter>
-    </ClInclude>
-    <ClInclude Include="SceneManager.h">
-      <Filter>소스 파일\Manager\SceneManager</Filter>
-    </ClInclude>
-    <ClInclude Include="Application.h">
-      <Filter>소스 파일\Core\Application</Filter>
-    </ClInclude>
-    <ClInclude Include="Scene.h">
-      <Filter>소스 파일\Object\Scene</Filter>
-    </ClInclude>
     <ClInclude Include="Define.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Object.h">
-      <Filter>소스 파일\Core\Object</Filter>
+    <ClInclude Include="Sprite.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Console.h">
-      <Filter>소스 파일\Core\Console</Filter>
+    <ClInclude Include="Scene.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="SoundManager.h">
-      <Filter>소스 파일\Manager\SoundManager</Filter>
+    <ClInclude Include="Animation.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="TextureManager.h">
-      <Filter>소스 파일\Manager\TextureManager</Filter>
+      <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Texture.h">
-      <Filter>소스 파일\Manager\TextureManager\Texture</Filter>
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

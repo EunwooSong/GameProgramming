@@ -2,6 +2,7 @@
 #include "stdafx.h"
 #include <map>
 #include <list>
+#include <vector>
 
 //Debug Setting
 #if defined(DEBUG) | defined(_DEBUG)
