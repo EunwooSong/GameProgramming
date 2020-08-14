@@ -23,10 +23,8 @@ Sprite::~Sprite()
 void Sprite::Render()
 {
 	Object::Render();
-
 	pd3dSprite->SetTransform(&mat);
 	pd3dSprite->Draw(texture->d3dTexture, &visibleRect, NULL, NULL, color);
-	
 }
 
 int Sprite::getWidth()

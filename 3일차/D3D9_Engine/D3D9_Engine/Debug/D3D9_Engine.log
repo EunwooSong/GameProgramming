@@ -1,161 +1,27 @@
 ﻿  Animation.cpp
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(32,12): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(33,14): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(34,13): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(35,11): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(49,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(50,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(51,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(52,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(36,1): warning C4005: 'SAFE_DELETE': 매크로 재정의
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(35): message : 'SAFE_DELETE'의 이전 정의를 참조하십시오.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Animation.cpp(47,29): error C2664: 'void std::vector<Sprite *,std::allocator<Sprite *>>::push_back(_Ty &&)': 인수 1을(를) 'char *'에서 'const _Ty &'(으)로 변환할 수 없습니다.
-          with
-          [
-              _Ty=Sprite *
-          ]
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Animation.cpp(47,29): message : 원인: 'char *'에서 'const _Ty'(으)로 변환할 수 없습니다.
-          with
-          [
-              _Ty=Sprite *
-          ]
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Animation.cpp(47,25): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\vector(716,10): message : 'std::vector<Sprite *,std::allocator<Sprite *>>::push_back' 선언을 참조하십시오.
+  The contents of <filesystem> are available only with C++17 or later.
   Application.cpp
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(32,12): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(33,14): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(34,13): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(35,11): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(49,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(50,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(51,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(52,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(36,1): warning C4005: 'SAFE_DELETE': 매크로 재정의
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(35): message : 'SAFE_DELETE'의 이전 정의를 참조하십시오.
+  The contents of <filesystem> are available only with C++17 or later.
   Console.cpp
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(32,12): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(33,14): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(34,13): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(35,11): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(49,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(50,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(51,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(52,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(36,1): warning C4005: 'SAFE_DELETE': 매크로 재정의
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(35): message : 'SAFE_DELETE'의 이전 정의를 참조하십시오.
+  The contents of <filesystem> are available only with C++17 or later.
   InputManager.cpp
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(32,12): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(33,14): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(34,13): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(35,11): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(49,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(50,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(51,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(52,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(36,1): warning C4005: 'SAFE_DELETE': 매크로 재정의
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(35): message : 'SAFE_DELETE'의 이전 정의를 참조하십시오.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\InputManager.cpp(36,36): warning C4244: '인수': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\InputManager.cpp(36,23): warning C4244: '인수': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  main.cpp
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(32,12): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(33,14): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(34,13): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(35,11): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(49,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(50,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(51,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(52,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(36,1): warning C4005: 'SAFE_DELETE': 매크로 재정의
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(35): message : 'SAFE_DELETE'의 이전 정의를 참조하십시오.
+  The contents of <filesystem> are available only with C++17 or later.
   Object.cpp
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(32,12): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(33,14): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(34,13): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(35,11): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(49,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(50,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(51,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(52,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(36,1): warning C4005: 'SAFE_DELETE': 매크로 재정의
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(35): message : 'SAFE_DELETE'의 이전 정의를 참조하십시오.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Object.cpp(100,16): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Object.cpp(100,13): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  The contents of <filesystem> are available only with C++17 or later.
   Scene.cpp
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(32,12): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(33,14): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(34,13): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(35,11): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(49,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(50,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(51,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(52,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(36,1): warning C4005: 'SAFE_DELETE': 매크로 재정의
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(35): message : 'SAFE_DELETE'의 이전 정의를 참조하십시오.
+  The contents of <filesystem> are available only with C++17 or later.
   SceneManager.cpp
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(32,12): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(33,14): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(34,13): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(35,11): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(49,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(50,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(51,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(52,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(36,1): warning C4005: 'SAFE_DELETE': 매크로 재정의
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(35): message : 'SAFE_DELETE'의 이전 정의를 참조하십시오.
+  The contents of <filesystem> are available only with C++17 or later.
   SoundManager.cpp
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(32,12): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(33,14): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(34,13): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(35,11): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(49,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(50,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(51,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(52,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(36,1): warning C4005: 'SAFE_DELETE': 매크로 재정의
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(35): message : 'SAFE_DELETE'의 이전 정의를 참조하십시오.
+  The contents of <filesystem> are available only with C++17 or later.
   Sprite.cpp
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(32,12): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(33,14): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(34,13): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(35,11): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(49,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(50,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(51,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(52,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(36,1): warning C4005: 'SAFE_DELETE': 매크로 재정의
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(35): message : 'SAFE_DELETE'의 이전 정의를 참조하십시오.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Sprite.cpp(54,27): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Sprite.cpp(54,20): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  stdafx.cpp
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(32,12): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(33,14): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(34,13): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(35,11): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(49,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(50,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(51,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(52,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(36,1): warning C4005: 'SAFE_DELETE': 매크로 재정의
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(35): message : 'SAFE_DELETE'의 이전 정의를 참조하십시오.
+  The contents of <filesystem> are available only with C++17 or later.
   Texture.cpp
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(32,12): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(33,14): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(34,13): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(35,11): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(49,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(50,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(51,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(52,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(36,1): warning C4005: 'SAFE_DELETE': 매크로 재정의
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(35): message : 'SAFE_DELETE'의 이전 정의를 참조하십시오.
+  The contents of <filesystem> are available only with C++17 or later.
   TextureManager.cpp
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(32,12): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(33,14): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(34,13): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(35,11): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(49,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(50,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(51,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\Define.h(52,1): warning C4244: '+=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(36,1): warning C4005: 'SAFE_DELETE': 매크로 재정의
-C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\D3D9_Engine\stdafx.h(35): message : 'SAFE_DELETE'의 이전 정의를 참조하십시오.
+  The contents of <filesystem> are available only with C++17 or later.
+  main.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  stdafx.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  D3D9_Engine.vcxproj -> C:\Users\Sunrin\Desktop\GameProgramming\3일차\D3D9_Engine\Debug\D3D9_Engine.exe

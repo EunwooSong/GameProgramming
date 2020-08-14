@@ -55,6 +55,12 @@
     <Filter Include="소스 파일\Object\Animation">
       <UniqueIdentifier>{fc9aaea1-3e8d-4969-984b-01519d0d42bf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Object\BitMap">
+      <UniqueIdentifier>{b3ed6e89-531c-4fbb-bdc8-1bcd88dbcdb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Particle">
+      <UniqueIdentifier>{b1b70f63-b46e-466b-8518-d6025ad9300f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -96,6 +102,12 @@
     <ClCompile Include="Animation.cpp">
       <Filter>소스 파일\Object\Animation</Filter>
     </ClCompile>
+    <ClCompile Include="BitMap.cpp">
+      <Filter>소스 파일\Object\BitMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>소스 파일\Object\Particle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -135,6 +147,15 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Application.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

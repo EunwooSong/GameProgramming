@@ -61,6 +61,11 @@ bool Object::IsCollisionRect(Vec2 p, Rect r)
 	return myRect.Intersects(r);
 }
 
+bool Object::IsCollisionRect(Object* obj)
+{
+	return IsCollisionRect(obj->pos, obj->rect);
+}
+
 bool Object::isPointInRect(Vec2 p)
 {
 	//SetMyRect

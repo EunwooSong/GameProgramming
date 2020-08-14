@@ -5,7 +5,7 @@
 #include <d3dx9.h>
 
 //Program Setting
-#define CONSOLE_OFF false
+#define CONSOLE_ON true
 #define SCREEN_WIDTH 1280
 #define SCREEN_HEIGHT 720
 #define BG_COLOR D3DCOLOR_ARGB(255,255,255,255)

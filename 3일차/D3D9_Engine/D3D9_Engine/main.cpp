@@ -9,8 +9,8 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR, INT cmdS
 	Console console;
 	Application app;
 
-	if (CONSOLE_OFF) {
-		console.CloseConsole();
+	if (CONSOLE_ON) {
+		console.OpenConsole();
 	}
 
 	app.InitWindow(hInstance);

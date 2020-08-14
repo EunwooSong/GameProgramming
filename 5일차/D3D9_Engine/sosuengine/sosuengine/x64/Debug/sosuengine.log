@@ -1,0 +1,24 @@
+﻿  GameScene.cpp
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(14,40): warning C4244: '인수': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(25,40): warning C4244: '인수': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(46,36): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(74,10): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(76,58): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(76,40): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(79,79): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(79,41): warning C4244: '인수': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(84,12): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(86,58): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(86,40): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(89,79): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(89,41): warning C4244: '인수': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(95,64): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(95,44): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(103,98): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(103,60): warning C4244: '인수': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(107,69): warning C4244: '인수': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(113,73): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(113,50): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(145,70): warning C4244: '인수': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\sosuengine\GameScene.cpp(169,54): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  sosuengine.vcxproj -> C:\Users\Sunrin\Desktop\GameProgramming\5일차\D3D9_Engine\sosuengine\x64\Debug\sosuengine.exe

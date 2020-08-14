@@ -25,6 +25,7 @@ public:
 	void RemoveChild(Object* iter);
 
 	bool IsCollisionRect(Vec2 p, Rect r);
+	bool IsCollisionRect(Object* obj);
 	bool isPointInRect(Vec2 p);
 
 	D3DXMATRIX getMat();
@@ -34,6 +35,8 @@ public:
 	int getPosY();
 
 	void setParent(Object* obj);
+
+
 	void setPos(int x, int y);
 	void setPos(Vec2 pos);
 };

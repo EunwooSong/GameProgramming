@@ -44,7 +44,7 @@ void Animation::Update(float dt)
 
 void Animation::AddFrame(char* path)
 {
-	spriteVector.push_back(path);
+	spriteVector.push_back(new Sprite(path));
 	AddChild(spriteVector[maxFrame]);
 
 	if (maxFrame == 0) {

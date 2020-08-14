@@ -2,6 +2,7 @@
 #include "Object.h"
 
 class Scene
+	: public Object
 {
 private:
 	std::list<Object*> objList;

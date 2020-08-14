@@ -4,9 +4,12 @@
 
 class Console
 {
+
+	FILE* fp;
+
 public:
 	Console();
 	~Console();
 
-	void CloseConsole();
+	void OpenConsole();
 };

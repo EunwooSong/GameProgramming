@@ -160,7 +160,7 @@ int Application::DoMainLoop(Scene* iter)
 float Application::getDeltaTime()
 {
 	//Get Current Time
-	QueryPerformanceFrequency(&currentInterval);
+	QueryPerformanceCounter(&currentInterval);
 	LONGLONG interval = (currentInterval.QuadPart - beforeInterval.QuadPart);
 
 	//Get DeltaTime

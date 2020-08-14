@@ -16,6 +16,12 @@ Scene::~Scene()
 
 void Scene::Render()
 {
+	Object::Render();
+	for (auto& obj : objList)
+		obj->Render();
+
+	for (auto& ui : objList)
+		ui->Render();
 }
 
 void Scene::Update(float dt)
@@ -29,7 +35,7 @@ void Scene::Update(float dt)
 void Scene::AddObject(Object* iter)
 {
 	objList.push_back(iter);
-	iter->setParent(nullptr);
+	iter->setParent(this);
 }
 
 void Scene::RemoveObject(Object* iter)
